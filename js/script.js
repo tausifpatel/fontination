@@ -14,3 +14,16 @@
 //     });
 // }
 
+// Add event listener
+// run loop
+// compare if it is required ID
+// select query to edit the content
+
+
+document.addEventListener('click', function(event){
+  for(var i = 0; i < 8; i++){
+    if(parseInt(event.target.id) === i){
+      document.getElementById(i).contentEditable = true;
+    }
+  }
+});
