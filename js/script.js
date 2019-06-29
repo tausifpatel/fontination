@@ -21,7 +21,7 @@
 
 
 document.addEventListener('click', function(event){
-  for(var i = 0; i < 8; i++){
+  for(var i = 0; i < 3; i++){
     if(parseInt(event.target.id) === i){
       document.getElementById(i).contentEditable = true;
     }
